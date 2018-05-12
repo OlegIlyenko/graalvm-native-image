@@ -1,0 +1,4 @@
+name=tenshi/graalvm-native-image
+
+docker build -t $name:latest .
+docker push $name
